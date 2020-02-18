@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Buffermedia | Mobile Solutions For Business</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+    <link rel=stylesheet href="styles/main.css">
+    <link rel=stylesheet href="styles/home.css">
+    <script src="scripts/main.js" defer></script>
+    <script src="scripts/slideshow.js" defer></script>
+</head>
+
+<body>
+    <!-- // Header and contact info  -->
+    <header class="masthead">
+        <!-- Header contact  -->
+        <div class="clearfix header-contact">
+            <!-- Header mail contact -->
+            <div class="header-wrap">
+                <span class="mail-hd-contact">
+                    <i class="fas fa-envelope" aria-hidden="true"></i>
+                    <a href="mailto:info@buffermedia.ng">info@buffermedia.ng</a>
+                </span>
+
+                <!-- Header social media contacts -->
+                <span class="social-hd-contact">
+                    <a href="https://www.facebook.com" target="_blank">
+                        <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                        <span class="screen-reader">Facebook</span>
+                    </a>
+                    <a href="https://www.twitter.com" target="_blank">
+                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                        <span class="screen-reader">Twitter</span>
+                    </a>
+                    <a href="https://www.linkedin.com" target="_blank">
+                        <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                        <span class="screen-reader">LinkedIn</span>
+                    </a>
+                    <a href="https://www.plus.google.com" target="_blank">
+                        <i class="fab fa-google-plus-g" aria-hidden="true"></i>
+                        <span class="screen-reader">Google</span>
+                    </a>
+                    <a href="https://www.youtube.com" target="_blank">
+                        <i class="fab fa-youtube" aria-hidden="true"></i>
+                        <span class="screen-reader">Youtube</span>
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                        <span class="screen-reader">Instagram</span>
+                    </a>
+                    <a href="https://www.skype.com" target="_blank">
+                        <i class="fab fa-skype" aria-hidden="true"></i>
+                        <span class="screen-reader">Skype</span>
+                    </a>
+                </span>
+            </div>
+        </div>
+
+        <!-- Site header -->
+        <div class="site-header">
+            <div class="header-wrap clearfix">
+                <h1 class="site-title">
+                    <a href="#">
+                        <span class="buffer-logo"><img src="images/buffer-logo.png" alt="Buffermedia | Mobile Solutions For Business"></span>
+                    </a>
+                </h1>
+                
+                <!-- Header search -->
+                <button type="button" class="header-search-botton" aria-expanded="false">
+                    <i class="fas fa-search" aria-hidden="true"></i>
+                    <span class="screen-reader">Open Search Modal</span>
+                </button>
+
+                <!-- Search modal -->
+                <div class="search-modal-background"></div>
+                <div class="search-modal">
+                    <form class="modal-form-table" name="modal-form" action="index.html" method="get">
+                        <div class="modal-form-table-cell">
+                            <div class="modal-input-wrap">
+                                <label for="modal-search">Just type and press 'enter'</label>
+                                <input type="search" name="modal-search" id="modal-search" placeholder="search...">
+                            </div>
+                        </div>
+                    </form>
+                    <button type="button" class="close-modal">
+                        <i class="fas fa-times" aria-hidden="true"></i>
+                        <span class="screen-reader">Close Search Modal</span>
+                    </button>
+                </div>
+
+                <!-- Nav toggle button-->
+                <button type="button" class="nav-toggler" aria-expanded="false" aria-controls="multi-level-nav">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                    <span class="screen-reader">Toggle Navigation</span>
+                </button>
+
+                <!-- Top navigation -->
+                <nav class="multi-level-nav" id="multi-level-nav">
+                    <ul>
+                        <li><a class="active" href="#">Home</a></li>
+                        <li class="has-children">
+                            <a href="#" id="company-dropdown" aria-expanded="false" aria-haspopup="true">Company
+                                <i class="dropdown-icon fas fa-angle-down" aria-hidden="true"></i>
+                            </a>
+                            <ul class="dropdown-menu" aria-lebelledby="company-dropdown">
+                                <li><a href="pages/about-us">About Us</a></li>
+                                <li><a href="pages/careers.html">Careers</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-children">
+                            <a href="#" id="services-dropdown" aria-expanded="false" aria-haspopup="true">Services
+                                <i class="dropdown-icon fas fa-angle-down" aria-hidden="true"></i>
+                            </a>
+                            <ul class="dropdown-menu" aria-lebelledby="services-dropdown">
+                                <li><a href="pages/digital-marketing.html">Digital Marketing</a></li>
+                                <li><a href="pages/mobile-solutions.html">Mobile Solutions</a></li>
+                                <li><a href="pages/mobile-vas">Mobile VAS</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-children">
+                            <a href="#" id="market-place-dropdown" aria-expanded="false" aria-haspopup="true">Market Place
+                                <i class="dropdown-icon fas fa-angle-down" aria-hidden="true"></i>
+                            </a>
+                            <ul class="dropdown-menu" aria-lebelledby="market-place-dropdown">
+                                <li><a href="pages/overview.html">Overview</a></li>
+                                <li><a href="pages/playcode.html">Playcode</a></li>
+                                <li><a href="pages/box-africa.html">Box Africa</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-children">
+                            <a href="#" id="insights-dropdown" aria-expanded="false" aria-haspopup="true">Insights
+                                <i class="dropdown-icon fas fa-angle-down" aria-hidden="true"></i>
+                            </a>
+                            <ul class="dropdown-menu" aria-lebelledby="insights-dropdown">
+                                <li><a href="pages/blog.html">Blog</a></li>
+                                <li><a href="pages/research.html">Research</a></li>
+                                <li><a href="pages/resources.html">Resources</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="pages/contact-us.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- // Main - Home -->
+    <main>
+        <article>
+            <header class="article-header">
+                <!-- Slideshow container -->
+                <div class="slideshow-container">
+                    <!-- Full-width images with number and caption text -->
+                    <div class="slide fade">
+                        <img class="slide-image" src="images/slider1.jpg" alt="">
+                        <div class="slide-caption">
+                            <h2 class="slide-caption-title">We Are Buffer</h2>
+                            <p class="slide-caption-text">We are speeding up conversations; building engagements and helping mobile subscribers locate your brand across all mobile devices</p>
+                            <a class="slide-caption-btn" href="#">Read more</a>
+                        </div>
+                    </div>
+
+                    <div class="slide fade">
+                        <img class="slide-image" src="images/slider2.jpg" alt="">
+                    </div>
+
+                    <div class="slide fade">
+                        <img class="slide-image" src="images/slider3.jpg" alt="">
+                    </div>
+
+                    <div class="slide fade">
+                        <img class="slide-image" src="images/slider4.jpg" alt="">
+                    </div>
+
+                    <div class="slide fade">
+                        <img class="slide-image" src="images/slider5.jpg" alt="">
+                    </div>
+
+                    <!-- Next and previous buttons -->
+                    <a class="prev" href="#">
+                        <i class="fas fa-angle-left" aria-hidden="true"></i>
+                    </a>
+                    <a class="next" href="#">
+                        <i class="fas fa-angle-right" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </header>
+            <!-- Mobile solution for business  -->
+            <section class="buz">
+                <div class="clearfix content-wrap">
+                    <h2>Mobile Solutions for Business</h2>
+
+                    <div class="buz-item">
+                        <a class="buz-link" href="#">
+                            <div class="buz-icon">
+                                <i class="far fa-heart" aria-hidden="true"></i>
+                            </div>
+                            <h3>Passion</h3>
+                        </a>
+                        <p>Ours is a powerful force in accomplishing all that we have set our mind to. This is the energy that keeps us going and filled with meaning, excitement, and anticipation.</p>
+                    </div>
+                    <div class="buz-item">
+                        <a class="buz-link" href="#">
+                            <div class="buz-icon">
+                                <i class="fas fa-laptop" aria-hidden="true"></i>
+                            </div>
+                            <h3>Technology</h3>
+                        </a>
+                        <p>We are bringing the world closer together and to help solve some of your greatest challenges.</p>
+                    </div>
+                    <div class="buz-item">
+                        <a class="buz-link" href="#">
+                            <div class="buz-icon">
+                                <i class="fas fa-laptop" aria-hidden="true"></i>
+                            </div>
+                            <h3>Simplicity</h3>
+                        </a>
+                        <p>We demand more for you—more features, more function, more power—and yet we also increasingly demand that it be easy for you to use.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Digital marketing -->
+            <section class="dg-marketing">
+                <div class="clearfix content-wrap">
+
+                    <h2>Digital <span class="highlight">Marketing</span></h2>
+                    <p>We Are Giving Millions of Consumers a Personal Reason to Love and Connect with Your Brand.</p>
+
+                    <div class="marketing-img">
+                        <a href="#" tabindex="-1"><img src="images/whats-in-it.jpg" alt="Digital  Marketing" width="760" height="497"></a>
+                    </div>
+
+                    <div class="marketing-item">
+                        <a class="digital-mobile clearfix" href="#">
+                            <div class="digital-mobile-icon">
+                                <i class="fas fa-users" aria-hidden="true"></i>
+                            </div>
+                            <h3>Connecting Brands To Millions Of People That Matter</h3>
+                        </a>
+                        <div class="digital-mobile-para">
+                            <p>Buffer Media connect top brands to millions of people in African locating them via their mobile interactions</p>
+                        </div>
+
+                        <a class="digital-mobile clearfix" href="#">
+                            <div class="digital-mobile-icon">
+                                <i class="fas fa-users" aria-hidden="true"></i>
+                            </div>
+                            <h3>Relevant Ads At The Right Point</h3>
+                        </a>
+                        <div class="digital-mobile-para">
+                            <p>We take significant steps to deliver ads in brand-safe environments, ensuring the highest level of ad quality.</p>
+                        </div>
+
+                        <a class="digital-mobile clearfix" href="#">
+                            <div class="digital-mobile-icon">
+                                <i class="far fa-check-square" aria-hidden="true"></i>
+                            </div>
+                            <h3>Media Buying</h3>
+                        </a>
+                        <div class="digital-mobile-para">
+                            <p>We help you reach the highest number of people in your target audience at the lowest possible cost</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Hardwork -->
+
+            <section class="clearfix">
+                <div class="hardwork">
+                    <video autoplay loop width="1280" height="720">
+                        <source src="videos/phone.mp4" type="video/mp4">
+                        <source src="videos/phone.webm" type="video/webm">
+                        <source src="videos/phone.ogg" type="video/ogg">
+                        Sorry, your browser doesn't support embedded videos.
+                    </video>
+                    <div class="bg-hardwork"></div>
+                    <div class="hardwork-content">
+                        <div class="clearfix content-wrap">
+                            <h2>
+                              <span class="hardwork-small">We Work Hard To Give You</span>
+                              <span class="hardwork-big">A Unique Mobile Experience</span>
+                            </h2>
+
+                            <a  class="hardwork-detail" href="#">
+                                <div class="hardwork-icon">
+                                    <i class="fas fa-chart-line" aria-hidden="true"></i>
+                                </div>
+                                <h3>Performance Initiative</h3>
+                            </a>
+
+                            <a class="hardwork-detail" href="#">
+                                <div class="hardwork-icon">
+                                    <i class="fas fa-database" aria-hidden="true"></i>
+                                </div>
+                                <h3>Data-Driven Mobile Advertising</h3>
+                            </a>
+
+                            <a class="hardwork-detail" href="#">
+                                <div class="hardwork-icon">
+                                    <i class="fas fa-bullseye" aria-hidden="true"></i>
+                                </div>
+                                <h3>Advanced Audience Targeting</h3>
+                            </a>
+
+                            <a class="hardwork-detail" href="#">
+                                <div class="hardwork-icon">
+                                    <i class="fas fa-spinner" aria-hidden="true"></i>
+                                </div>
+                                <h3>Billions Of Impressions</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Mobile solution -->
+            <section class="clearfix mobile-solution">
+                <!-- Mobile background image  -->
+                <div class="bg-mobile-img"></div>
+
+                <div class="solution-detail content-wrap">
+                    <h2>Mobile <span class="highlight">Solutions</span></h2>
+
+                    <!-- <div class="clearfix"> -->
+                        <a class="digital-mobile clearfix" href="#">
+                            <div class="digital-mobile-icon">
+                                <i class="fab fa-android" aria-hidden="true"></i>
+                            </div>
+                            <h3>Mobile Applications</h3>
+                        </a>
+                        <div class="digital-mobile-para">
+                            <p>Our expertise covers the entire project cycle, from consultation and design to development and support.</p>
+                        </div>
+                    <!-- </div> -->
+
+                    <a class="digital-mobile clearfix" href="#">
+                        <div class="digital-mobile-icon">
+                            <i class="fas fa-cube" aria-hidden="true"></i>
+                        </div>
+                        <h3>Enterprise Solutions</h3>
+                    </a>
+                    <div class="digital-mobile-para">
+                        <p>Our Enterprise Solutions has been designed with the simple idea of helping businesses to grow sales and save time.</p>
+                    </div>
+
+                    <a class="digital-mobile clearfix" href="#">
+                        <div class="digital-mobile-icon">
+                            <i class="fab fa-telegram-plane" aria-hidden="true"></i>
+                        </div>
+                        <h3>Integrated Solution</h3>
+                    </a>
+                    <div class="digital-mobile-para">
+                        <p>We have a full set of in-house developed mobile platfordigital-mobile that enables us to deliver any on-demand 100% customized solution.</p>
+                    </div>
+
+                    <a class="digital-mobile clearfix" href="#">
+                        <div class="digital-mobile-icon">
+                            <i class="fas fa-mobile-alt" aria-hidden="true"></i>
+                        </div>
+                        <h3>Mobile VAS</h3>
+                    </a>
+                    <div class="digital-mobile-para">
+                        <p>As B2B VAS full service provider, BUFFER is a one stop-shop for delivering any service and/or solution.</p>
+                    </div>
+
+                    <div class="solution-btn">
+                        <a class="content-btn" href="#">Read More</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- You have an objective -->
+            <section class="get-you-there">
+                <div class="clearfix content-wrap">
+                    <h2 class="objective">You Have An Objective?<br>We Have A Way To Get You There</h2>
+                    <a class="get-started content-btn" href="#">Click Here To Get Started</a>
+                </div>
+            </section>
+
+            <!-- Blog posts  -->
+            <aside class="blog-posts">
+                <div class="content-wrap clearfix">
+                    <h2>Latest Blog Posts</h2>
+                    <figure class="blog-fig">
+                        <a href="#" tabindex="-1">
+                            <img src="images/hashtag-marketing-600x400.jpg" alt="Hashtag Marketing" width="600" height="400">
+                        </a>
+                        <figcaption>
+                            <h3><a href="#">Effective Hashtag Marketing Strategy</a></h3>
+                            <div class="screen-reader">
+                                <time datetime="2018-03-27">March 27, 2019<a href="#" tabindex="-1">Hassan Yusuf</a></time>
+                            </div>
+                            <a class="content-btn" href="#">Read More</a>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="blog-fig">
+                        <a href="#" tabindex="-1">
+                            <img src="images/facebook-security-600x400.jpg" alt="Facebook respons to disturbing data breach scandal" width="600" height="400">
+                        </a>
+                        <figcaption>
+                            <h3><a href="#">Facebook responds to ‘disturbing’ data breach scandal</a></h3>
+                            <div class="screen-reader">
+                                <time datetime="2018-03-21">March 21, 2018<a href="#" tabindex="-1">Hassan Yusuf</a></time>
+                            </div>
+                            <a class="content-btn" href="#">Read More</a>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="blog-fig">
+                        <a href="#" tabindex="-1">
+                            <img src="images/facebook-600x400.jpg" alt="Facebook scraps News Feed censorship trial amid outrage" width="600" height="400">
+                        </a>
+                        <figcaption>
+                            <h3><a href="#">Facebook scraps News Feed censorship trial amid outrage</a></h3>
+                            <div class="screen-reader">
+                                <time datetime="2018-03-05">March 5, 2018<a href="#" tabindex="-1">Hassan Yusuf</a></time>
+                            </div>
+                            <a class="content-btn" href="#">Read More</a>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="blog-fig">
+                        <a href="#" tabindex="-1">
+                            <img src="images/chat-box-600x400.jpg" alt="4 digital marketing trends that will shape your 2018" width="600" height="400">
+                        </a>
+                        <figcaption>
+                            <h3><a href="#">4 digital marketing trends that will shape your 2018</a></h3>
+                            <div class="screen-reader">
+                                <time datetime="2018-03-02">March 2, 2018<a href="#" tabindex="-1">Hassan Yusuf</a></time>
+                            </div>
+                            <a class="content-btn" href="#">Read More</a>
+                        </figcaption>
+                    </figure>
+              </div>
+            </aside>
+        </article>
+    </main>
+
+    <!-- // Footer and contact info -->
+    <footer>
+        <!-- Company profile, footer search and contacts -->
+        <div  class="clearfix footer-contact">
+            <div  class="clearfix content-wrap">
+                <!-- Company profile -->
+                <section class="col-4">
+                    <h3>Our Company</h3>
+                    <p>Buffer Media is transforming the way brands reach and talk to consumers, to drive meaningful engagements at incredible scale.
+                       We enable monetization of mobile content (games, movies, apps), in Nigeria, and helps mobile subcribers locate amazing products, services & apps via mobile advertising.
+                    </p>
+                </section>
+                <!-- Footer search, address and mail contacts -->
+                <section class="col-5">
+                    <div class="footer-search">
+                        <h3>Search Something</h3>
+                        <form class="footer-form" name="footer-form" role="search" action="index.html" method="get">
+                            <input type="search" name="footer-search" placeholder="search..." aria-label="Search through site content">
+                            <button class="footer-search-btn" type="submit" name="footer-search-btn">
+                                <i class="fas fa-search" aria-hidden="true"></i>
+                                <span class="screen-reader">Submit search query</span>
+                            </button>
+                        </form>
+                        <div class="mail-ft-contacts">
+                            <i class="fas fa-home" aria-hidden="true"></i>
+                            <h4>18, Payne Crescent, Apapa, Lagos</h4>
+                        </div>
+                        <div class="mail-ft-contacts">
+                            <i class="fas fa-envelope" aria-hidden="true"></i>
+                            <h4>info@buffer.media</h4>
+                        </div>
+                        <div class="mail-ft-contacts">
+                            <i class="fas fa-envelope" aria-hidden="true"></i>
+                            <h4>sales@buffer.media</h4>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Footer social media contacts -->
+                <div class="col-3">
+                    <a class="tooltip email" href="mailto:info@buffermedia.ng">
+                        <i class="fas fa-envelope" aria-hidden="true"></i>
+                        <span class="tooltiptext">Email</span>
+                    </a>
+                    <a class="tooltip facebook" href="https://www.facebook.com" target="_blank">
+                        <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                        <span class="tooltiptext">Facebook</span>
+                    </a>
+                    <a class="tooltip twitter" href="https://www.twitter.com" target="_blank">
+                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                        <span class="tooltiptext">Twitter</span>
+                    </a>
+                    <a class="tooltip google" href="https://www.plus.google.com" target="_blank">
+                        <i class="fab fa-google-plus-g" aria-hidden="true"></i>
+                        <span class="tooltiptext">Google+</span>
+                    </a>
+                    <a class="tooltip linkedin" href="https://www.linkedin.com" target="_blank">
+                        <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                        <span class="tooltiptext">LinkedIn</span>
+                    </a>
+                    <a class="tooltip youtube" href="https://www.youtube.com" target="_blank">
+                        <i class="fab fa-youtube" aria-hidden="true"></i>
+                        <span class="tooltiptext">Youtube</span>
+                    </a>
+                    <a class="tooltip instagram" href="https://www.instagram.com" target="_blank">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                        <span class="tooltiptext">Instagram</span>
+                    </a>
+                    <a class="tooltip skype" href="https://www.skype.com" target="_blank">
+                        <i class="fab fa-skype" aria-hidden="true"></i>
+                        <span class="tooltiptext">Skype</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer navigation -->
+        <div class="footer-nav">
+            <div class="content-wrap">
+                <div class="bottom-nav">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact-us.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="copyright">Copyright 2016 &copy; Buffer Media All rights reserved.</div>
+            </div>
+        </div>
+        <a class="to-top" href="#" title="Back to top"><i class="fas fa-angle-up" aria-hidden="true"></i></a>
+    </footer>
+
+</body>
+</html>
