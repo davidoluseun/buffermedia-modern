@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Front-end Developer - Buffermedia | Mobile Solutions For Business</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+    <link rel=stylesheet href="../styles/main.css">
+    <link rel=stylesheet href="../styles/font-end.css">
+    <script src="../scripts/main.js" defer></script>
+</head>
+
+<body>
+    <!-- // Header and contact info  -->
+    <header class="masthead">
+        <!-- Header contact  -->
+        <div class="clearfix header-contact">
+            <!-- Header mail contact -->
+            <div class="header-wrap">
+                <span class="mail-hd-contact">
+                    <i class="fas fa-envelope" aria-hidden="true"></i>
+                    <a href="mailto:info@buffermedia.ng">info@buffermedia.ng</a>
+                </span>
+
+                <!-- Header social media contacts -->
+                <span class="social-hd-contact">
+                    <a href="https://www.facebook.com" target="_blank">
+                        <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                        <span class="screen-reader">Facebook</span>
+                    </a>
+                    <a href="https://www.twitter.com" target="_blank">
+                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                        <span class="screen-reader">Twitter</span>
+                    </a>
+                    <a href="https://www.linkedin.com" target="_blank">
+                        <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                        <span class="screen-reader">LinkedIn</span>
+                    </a>
+                    <a href="https://www.plus.google.com" target="_blank">
+                        <i class="fab fa-google-plus-g" aria-hidden="true"></i>
+                        <span class="screen-reader">Google</span>
+                    </a>
+                    <a href="https://www.youtube.com" target="_blank">
+                        <i class="fab fa-youtube" aria-hidden="true"></i>
+                        <span class="screen-reader">Youtube</span>
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                        <span class="screen-reader">Instagram</span>
+                    </a>
+                    <a href="https://www.skype.com" target="_blank">
+                        <i class="fab fa-skype" aria-hidden="true"></i>
+                        <span class="screen-reader">Skype</span>
+                    </a>
+                </span>
+            </div>
+        </div>
+
+        <!-- Site header -->
+        <div class="site-header">
+            <div class="header-wrap clearfix">
+                <h1 class="site-title">
+                    <a href="#">
+                        <span class="buffer-logo"><img src="../images/buffer-logo.png" alt="Buffermedia | Mobile Solutions For Business"></span>
+                    </a>
+                </h1>
+                <!-- Header search -->
+                <button type="button" class="header-search-botton" aria-expanded="false">
+                    <i class="fas fa-search" aria-hidden="true"></i>
+                    <span class="screen-reader">Open Search Modal</span>
+                </button>
+
+                <!-- Search modal -->
+                <div class="search-modal-background"></div>
+                <div class="search-modal">
+                    <form class="modal-form-table" name="modal-form" action="index.html" method="get">
+                        <div class="modal-form-table-cell">
+                            <div class="modal-input-wrap">
+                                <label for="modal-search">Just type and press 'enter'</label>
+                                <input type="search" name="modal-search" id="modal-search" placeholder="search...">
+                            </div>
+                        </div>
+                    </form>
+                    <button type="button" class="close-modal">
+                        <i class="fas fa-times" aria-hidden="true"></i>
+                        <span class="screen-reader">Close Search Modal</span>
+                    </button>
+                </div>
+
+                <!-- Nav toggle button-->
+                <button type="button" class="nav-toggler" aria-expanded="false" aria-controls="multi-level-nav">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                    <span class="screen-reader">Toggle Navigation</span>
+                </button>
+
+                <!-- Top navigation -->
+                <nav class="multi-level-nav" id="multi-level-nav">
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li class="has-children">
+                            <a href="#" id="company-dropdown" aria-expanded="false" aria-haspopup="true">Company
+                                <i class="dropdown-icon fas fa-angle-down" aria-hidden="true"></i>
+                            </a>
+                            <ul class="dropdown-menu" aria-lebelledby="company-dropdown">
+                                <li><a href="about-us.html">About Us</a></li>
+                                <li><a href="careers.html">Careers</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-children">
+                            <a href="#" id="services-dropdown" aria-expanded="false" aria-haspopup="true">Services
+                                <i class="dropdown-icon fas fa-angle-down" aria-hidden="true"></i>
+                            </a>
+                            <ul class="dropdown-menu" aria-lebelledby="services-dropdown">
+                                <li><a href="digital-marketing.html">Digital Marketing</a></li>
+                                <li><a href="mobile-solutions.html">Mobile Solutions</a></li>
+                                <li><a href="mobile-vas.html">Mobile VAS</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-children">
+                            <a href="#" id="market-place-dropdown" aria-expanded="false" aria-haspopup="true">Market Place
+                                <i class="dropdown-icon fas fa-angle-down" aria-hidden="true"></i>
+                            </a>
+                            <ul class="dropdown-menu" aria-lebelledby="market-place-dropdown">
+                                <li><a href="overview.html">Overview</a></li>
+                                <li><a href="playcode.html">Playcode</a></li>
+                                <li><a href="box-africa.html">Box Africa</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-children">
+                            <a href="#" id="insights-dropdown" aria-expanded="false" aria-haspopup="true">Insights
+                                <i class="dropdown-icon fas fa-angle-down" aria-hidden="true"></i>
+                            </a>
+                            <ul class="dropdown-menu" aria-lebelledby="insights-dropdown">
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="research.html">Research</a></li>
+                                <li><a href="resources.html">Resources</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contact-us.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- // Main - Front-end Developer -->
+    <main>
+        <article class="content-wrap">
+            <header>
+                <h2 class="page-title">Job Title: Front-end Developer</h2>
+            </header>
+            <div class="clearfix">
+                <div class="col-narrow">
+                    <!-- Job Type -->
+                    <section>
+                        <h2>Job Type</h2>
+                        <p>Full Time</p>
+                    </section>
+
+                    <!-- Qualification -->
+                    <section>
+                        <h2>Qualification</h2>
+                        <p>BA/BSc/OND/HND/NYSC</p>
+                    </section>
+
+                    <!-- Experience -->
+                    <section>
+                        <h2>Experience</h2>
+                        <p>4 – 6 years</p>
+                    </section>
+
+                    <!-- Location -->
+                    <section>
+                        <h2>Location</h2>
+                        <p>Apapa, Lagos</p>
+                    </section>
+
+                    <!-- Job Field -->
+                    <section>
+                        <h2>Job Field</h2>
+                        <p>Engineering/Dev</p>
+                    </section>
+                </div>
+
+                <div class="col-wide">
+                    <!-- Preferred Candidate -->
+                    <section>
+                        <h2>Preferred Candidate</h2>
+                        <p>We are looking for an ambitious and self-driven Front-end Developer who can utilize HTML,
+                            CSS and JavaScript (Angular/React js/JQuery) to develop effective user interfaces for web
+                            and mobile applications released to the public. The successful candidate will work closely with our development
+                            and software design teams to build and update web applications and internal web tools and make them more efficient.
+                            The front-end developer will also be responsible for creating innovative solutions to web design issues to help
+                            make the website more visually appealing and enhance usability.
+                        </p>
+                        <p>At Buffer, you will be working with the latest technology, you will have the chance to advance and grow your career.</p>
+                    </section>
+
+                    <!-- Duties and Responsibilities -->
+                    <section>
+                        <h2>Duties and Responsibilities</h2>
+                        <ul>
+                            <li>Review designs created by product designers; ask any necessary clarifying questions before starting on work</li>
+                            <li>Write code to implement visual elements into various web applications</li>
+                            <li>Create prototypes, mockups, and staging sites for review and feedback</li>
+                            <li>Optimize websites and applications to ensure fast loading speeds</li>
+                            <li>Maintain web applications and implement any necessary additions or enhancements</li>
+                            <li>Identify and troubleshoot various website issues and coding problems</li>
+                            <li>Collaborate with members of the website team (including designers and back-end developers)
+                                to consistently improve functionality and user-friendliness of the web applications
+                            </li>
+                            <li>Maintain updated knowledge of the development industry and any advancements in technology</li>
+                            <li>Meet tight deadlines as required</li>
+                        </ul>
+                    </section>
+
+                    <!-- Requirements and Qualifications -->
+                    <section>
+                        <h2>Requirements and Qualifications</h2>
+                        <ul>
+                            <li>4+ years in a front-end development role</li>
+                            <li>Portfolio or samples of past work and projects</li>
+                            <li>Understanding of the entire web development process, with an emphasis on front-end design and development</li>
+                            <li>Advance skill in HTML, CSS, JavaScript, React, JQuery and various content management systems</li>
+                            <li>Ability to interpret and implement web designs</li>
+                            <li>Strong communication skills to effectively collaborate with designers, developers, and other relevant staff members or clients</li>
+                            <li>Willingness to troubleshoot and solve complex problems</li>
+                            <li>Ability to manage multiple projects and meet deadlines</li>
+                            <li>Flexibility to adapt to changing instructions and requirements</li>
+                            <li>Note: This position is only for applicant living around or close to Apapa, Lagos</li>
+                        </ul>
+                    </section>
+
+                    <!-- Apply now -->
+                    <div class="apply">
+                        <p>Follow the link in order to apply and submit your CV. Please beaware that we will contact only candidates who best matchthe requirements of the position.</p>
+                        <a class="content-btn" href="form.html">APPLY NOW</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <!-- // Footer and contact info -->
+    <footer>
+        <!-- Company profile, footer search and contacts -->
+        <div  class="clearfix footer-contact">
+            <div  class="clearfix content-wrap">
+                <!-- Company profile -->
+                <section class="col-4">
+                    <h3>Our Company</h3>
+                    <p>Buffer Media is transforming the way brands reach and talk to consumers, to drive meaningful engagements at incredible scale.
+                       We enable monetization of mobile content (games, movies, apps), in Nigeria, and helps mobile subcribers locate amazing products, services & apps via mobile advertising.
+                    </p>
+                </section>
+                <!-- Footer search, address and mail contacts -->
+                <section class="col-5">
+                    <div class="footer-search">
+                        <h3>Search Something</h3>
+                        <form class="footer-form" name="footer-form" role="search" action="index.html" method="get">
+                            <input type="search" name="footer-search" placeholder="search..." aria-label="Search through site content">
+                            <button class="footer-search-btn" type="submit" name="footer-search-btn">
+                                <i class="fas fa-search" aria-hidden="true"></i>
+                                <span class="screen-reader">Submit search query</span>
+                            </button>
+                        </form>
+                        <div class="mail-ft-contacts">
+                            <i class="fas fa-home" aria-hidden="true"></i>
+                            <h4>18, Payne Crescent, Apapa, Lagos</h4>
+                        </div>
+                        <div class="mail-ft-contacts">
+                            <i class="fas fa-envelope" aria-hidden="true"></i>
+                            <h4>info@buffer.media</h4>
+                        </div>
+                        <div class="mail-ft-contacts">
+                            <i class="fas fa-envelope" aria-hidden="true"></i>
+                            <h4>sales@buffer.media</h4>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Footer social media contacts -->
+                <div class="col-3">
+                    <a class="tooltip email" href="mailto:info@buffermedia.ng">
+                        <i class="fas fa-envelope" aria-hidden="true"></i>
+                        <span class="tooltiptext">Email</span>
+                    </a>
+                    <a class="tooltip facebook" href="https://www.facebook.com" target="_blank">
+                        <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                        <span class="tooltiptext">Facebook</span>
+                    </a>
+                    <a class="tooltip twitter" href="https://www.twitter.com" target="_blank">
+                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                        <span class="tooltiptext">Twitter</span>
+                    </a>
+                    <a class="tooltip google" href="https://www.plus.google.com" target="_blank">
+                        <i class="fab fa-google-plus-g" aria-hidden="true"></i>
+                        <span class="tooltiptext">Google+</span>
+                    </a>
+                    <a class="tooltip linkedin" href="https://www.linkedin.com" target="_blank">
+                        <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                        <span class="tooltiptext">LinkedIn</span>
+                    </a>
+                    <a class="tooltip youtube" href="https://www.youtube.com" target="_blank">
+                        <i class="fab fa-youtube" aria-hidden="true"></i>
+                        <span class="tooltiptext">Youtube</span>
+                    </a>
+                    <a class="tooltip instagram" href="https://www.instagram.com" target="_blank">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                        <span class="tooltiptext">Instagram</span>
+                    </a>
+                    <a class="tooltip skype" href="https://www.skype.com" target="_blank">
+                        <i class="fab fa-skype" aria-hidden="true"></i>
+                        <span class="tooltiptext">Skype</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer navigation -->
+        <div class="footer-nav">
+            <div class="content-wrap">
+                <div class="bottom-nav">
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact-us.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="copyright">Copyright 2016 &copy; Buffer Media All rights reserved.</div>
+            </div>
+        </div>
+        <a class="to-top" href="#" title="Back to top"><i class="fas fa-angle-up" aria-hidden="true"></i></a>
+    </footer>
+
+</body>
+</html>
