@@ -1,6 +1,6 @@
 # Buffermedia Website for Modern Browsers
 
-This is my version of the previous [Buffermedia website](https://buffermedia.ng) builts for latest browsers.
+This is my version of the previous [Buffermedia website](https://buffermedia.ng) builts with HTML CSS and Vanilla Javascript for latest browsers.
 
 Live version at [davidoluseun.github.io/buffermedia-modern](https://davidoluseun.github.io/buffermedia-modern).
 
